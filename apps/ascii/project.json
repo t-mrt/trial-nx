@@ -1,5 +1,5 @@
 {
-  "root": "packages/ascii",
-  "sourceRoot": "packages/ascii/assets",
+  "root": "apps/ascii",
+  "sourceRoot": "apps/ascii/assets",
   "projectType": "library"
 }
