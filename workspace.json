@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "cli": "apps/cli",
+    "ascii": "apps/ascii"
+  },
+  "cacheableOperations": ["build", "lint", "test"]
+}
