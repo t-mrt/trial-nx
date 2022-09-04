@@ -119,3 +119,40 @@ go 1.19
 
 use ./apps/cli
 ```
+
+```
+{
+  "root": "packages/ascii",
+  "sourceRoot": "packages/ascii/assets",
+  "projectType": "library"
+}
+```
+
+```
+$ npx nx run cli:serve
+
+> nx run cli:serve
+
+Hello, World!
+ _____
+< moo! >
+ -----
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+ >  NX   Successfully ran target serve for project cli
+
+```
+
+```
+$ nx affected --target=build
+
+ >  NX   Affected criteria defaulted to --base=main --head=HEAD
+
+ >  NX   Successfully ran target build for 0 projects (1ms)
+```
