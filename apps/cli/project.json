@@ -17,6 +17,13 @@
         "command": "go run ./ascii.go",
         "cwd": "apps/cli"
       }
+    },
+    "cmd": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "{args.cmd}",
+        "cwd": "apps/cli"
+      }
     }
   }
 }

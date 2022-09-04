@@ -156,3 +156,25 @@ $ nx affected --target=build
 
  >  NX   Successfully ran target build for 0 projects (1ms)
 ```
+
+```
+$ nx affected --target=build
+
+ >  NX   Affected criteria defaulted to --base=main --head=HEAD
+
+ >  NX   Successfully ran target build for 0 projects (1ms)
+
+
+~/nx on main (f64ae8c)
+$ nx affected --target=build
+
+ >  NX   Affected criteria defaulted to --base=main --head=HEAD
+
+
+    ✔  nx run cli:build (125ms)
+
+ ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+ >  NX   Successfully ran target build for 1 projects (127ms)
+
+```
