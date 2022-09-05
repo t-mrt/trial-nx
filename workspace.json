@@ -4,6 +4,5 @@
   "projects": {
     "cli": "apps/cli",
     "ascii": "apps/ascii"
-  },
-  "cacheableOperations": ["build", "lint", "test"]
+  }
 }
