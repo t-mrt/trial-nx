@@ -1,5 +1,14 @@
 {
   "root": "apps/ascii",
   "sourceRoot": "apps/ascii/assets",
-  "projectType": "library"
+  "projectType": "library",
+  "targets": {
+    "cmd": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "{args.cmd}",
+        "cwd": "apps/ascii"
+      }
+    }
+  }
 }
